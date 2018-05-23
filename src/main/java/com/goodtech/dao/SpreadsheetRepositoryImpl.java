@@ -20,6 +20,7 @@ public class SpreadsheetRepositoryImpl implements SpreadsheetRepository {
 	@Override
 	public int alterTable(String tableColumn) {
 		jdbcTemplate.execute("ALTER TABLE bahubali ADD "+tableColumn+ " varchar(80)");
+		System.out.println("gheun tak");
 		return 1;
 	}
 

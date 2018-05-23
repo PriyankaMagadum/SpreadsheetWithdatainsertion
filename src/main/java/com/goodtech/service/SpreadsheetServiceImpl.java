@@ -112,7 +112,7 @@ public class SpreadsheetServiceImpl implements SpreadsheetService {
 						}
 						
 						repository.insertData(row.getRowNum()+1,cellValue,columnList.get(cell.getColumnIndex()));
-					
+					System.out.println("data inserted");
 					
 				}
 					
